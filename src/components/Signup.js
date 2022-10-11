@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
-import basestyle from "../Base.module.css";
+import basestyle from "./Base.module.css";
 import registerstyle from "./Register.module.css";
 import axios from "axios";
 
-import { useNavigate, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 const Register = () => {
   const navigate = useNavigate();
 
